@@ -1,0 +1,9 @@
+{
+  "name": "sweet-cheesus",
+  "dependencies": {
+    "bootstrap": "~3.0.0",
+    "requirejs": "~2.1.8",
+    "jquery": ">= 1.8.0",
+    "qunit": "~1.12.0"
+  }
+}
