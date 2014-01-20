@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sweet Cheesus!</title>
+
+  <!-- build:css(.tmp) styles/vendor.css -->
+  <link rel="stylesheet"
+        href="bower_components/foundation/css/normalize.css" />
+  <link rel="stylesheet"
+        href="bower_components/foundation/css/foundation.css" />
+  <!-- endbuild -->
+
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css" />
+  <!-- endbuild -->
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar>
+    </nav>
+</div>
+
+
+  <h1 class="ltest">Sweet Cheesus!</h1>
+  <h2>Recipes</h2>
+
+  <div>
+      <span class="status" data-bind="text: status">Inactive</span>
+  </div>
+
+  <!-- Scripts -->
+  <!-- Libraries -->
+  <!-- build:js scripts/libs.js -->
+  <script src="bower_components/jquery/jquery.min.js"></script>
+  <script src="bower_components/knockout.js/knockout.js"></script>
+  <!-- endbuild -->
+
+  <!-- Application -->
+  <!-- build:js scripts/cheesus.js -->
+  <script src="scripts/viewmodels/frontpage.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "sweet-cheesus",
+  "dependencies": {
+    "foundation": "~5.0.0",
+    "foundation-icons": "*",
+    "foundation-icon-fonts": "*",
+    "jquery": ">= 2.0.0",
+    "knockout.js": ">= 3.0.0"
+  }
+}
