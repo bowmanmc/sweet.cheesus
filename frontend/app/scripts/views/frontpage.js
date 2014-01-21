@@ -2,8 +2,9 @@
  * FrontPage View Model
  * Backing model for path / or /index.html
  */
-var fpViewModel = {
+
+cheesus.views.frontpage = {
     status: ko.observable('ko activate!')
 };
 
-ko.applyBindings(fpViewModel, $('html')[0]);
+ko.applyBindings(cheesus.views.frontpage, $('html')[0]);

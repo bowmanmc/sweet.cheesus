@@ -1,0 +1,6 @@
+
+// Namespacing...
+cheesus = {
+    models: {},
+    views: {}
+};
